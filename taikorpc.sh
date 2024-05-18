@@ -110,7 +110,7 @@ function main_menu() {
     echo "1. 升级内核"
     echo "2. 新建用户holesky"
 	echo "3. 安装rpc客户端"
-    read -p "请输入选项（1-3）:"OPTION
+    read -p "请输入选项（1-3）:"
     case $OPTION in
     1) update_kernel ;;
 	2) add_user ;;
